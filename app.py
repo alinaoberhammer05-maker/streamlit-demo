@@ -8,3 +8,4 @@ lastname = st.text_input("Nachname")
 
 if st.button("Submit"): 
     st.write(firstname + " " + lastname.upper())
+    st.balloons()
